@@ -1,0 +1,8 @@
+ID = "Wittr"
+[build]
+  command = "npm install"
+  publish = "dist"
+  functions = "./functions"
+
+[context.deploy-preview]
+  command = "npm run serve"
